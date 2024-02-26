@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Imperial+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pinyon+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -89,10 +93,8 @@ body:has(.card[data-color="green"]:hover) {
 }
 
 .logo {
-  border-radius: 8.889px;
-  background: #fff;
-  box-shadow: 0px 10px 35px -4px rgba(67, 83, 255, 0.15),
-    0px 1.5px 4px -1px rgba(67, 83, 255, 0.2);
+  color: #0a1647;
+  text-shadow: 3px 2px 12px #068DC1;
 }
 
 .block-container {
@@ -187,4 +189,39 @@ body:has(.card[data-color="green"]:hover) {
   font-family: 'Rochester', cursive;
   font-size: 120px;
   font-weight: 400;
+}
+.name{
+  font-family: 'Alex Brush', cursive;
+  font-size: 140px;
+  font-weight: 400;
+  font-style: normal;
+  z-index: 1;
+  text-shadow: 3px 2px 12px #ffffff;
+}
+.name2{
+  font-family: "Imperial Script", cursive;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 120px;
+}
+.name3{
+  font-size: 180px;
+  font-family: "Pinyon Script", cursive;
+  font-weight: 800;
+  font-style: bold;
+  z-index: 0;
+  color: #2FABD8;
+  top: 30%;
+  text-shadow: 3px 2px 12px #0474a0;
+}
+.name4{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-size: 40px;
+  font-style: normal;
+}
+  
+.link{
+  text-shadow: 3px 2px 12px #0474a0;
 }
