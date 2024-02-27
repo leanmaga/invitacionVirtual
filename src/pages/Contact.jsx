@@ -1,3 +1,5 @@
+import Footer from "../components/Footer";
+
 
 import igdorado from '../../src/assets/images/accesorios/igdorado.png'
 import musica from '../../src/assets/images/accesorios/musica.png'
@@ -57,6 +59,10 @@ const Contact = () => {
           <h3 className="text-white m-4  p-4">GRACIAS POR ACOMPAÑARNOS EN ESTE MOMENTO TAN IMPORTANTE</h3>
         </div>
       </div>
+
+      {/*footer*/}
+
+      <Footer/>
 
     </section>
   );

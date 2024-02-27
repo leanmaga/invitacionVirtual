@@ -1,8 +1,10 @@
+import Footer from "../components/Footer";
 
 import Anillos from '../../src/assets/images/accesorios/anillos.png'
-
 import regalo from '../../src/assets/images/accesorios/regalo.png'
+
 const Projects = () => {
+
   return (
     <section className="w-full h-screen relative">
       
@@ -57,6 +59,10 @@ const Projects = () => {
           </button>
         
       </div>
+
+      {/*footer*/}
+
+      <Footer/>
 
     </section>
   );
