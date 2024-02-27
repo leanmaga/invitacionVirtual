@@ -214,6 +214,13 @@ body:has(.card[data-color="green"]:hover) {
   top: 30%;
   text-shadow: 3px 2px 12px #0474a0;
 }
+@media only screen 
+   and (min-width : 430px) 
+   and (min-height : 640px) {
+   .name3{
+    top:35%;
+   }
+}
 .name4{
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
