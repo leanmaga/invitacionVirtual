@@ -1,5 +1,3 @@
-import Footer from "../components/Footer";
-
 
 import igdorado from '../../src/assets/images/accesorios/igdorado.png'
 import musica from '../../src/assets/images/accesorios/musica.png'
@@ -19,14 +17,15 @@ const Contact = () => {
 
         <img src={igdorado} alt="anillos" className='w-[50%] h-auto'/>
 
+
         
         <h1 className="text-5xl font-bold m-2 p-4 ">
-          #LeanyBren2024
+          #More15
         </h1>
         
-        <p className="text-black pb-4 m-2">¡Preparate para nuestro gran día! Ya podés etiquetarnos en Instagram con nuestro hashtag en tus fotos o videos.</p>
+        <p className="text-black pb-4 m-2">¡Preparate para mi gran día! Ya podés etiquetarme en Instagram con el hashtag en tus fotos o videos.</p>
       
-        <button className="uppercase m-4 rounded-full py-2 px-4 bg-[#efb810] text-white font-semibold shadow-md hover:bg-[#ca8a04] focus:ring-2 focus:ring-[#422006] focus:ring-opacity-75">
+        <button className="uppercase m-4 rounded-full py-2 px-4 bg-[#10c2ef] text-white font-semibold shadow-md hover:bg-[#28305e] focus:ring-2 focus:ring-[#422006] focus:ring-opacity-75">
           ver fotos instagram
         </button>
       
@@ -43,10 +42,10 @@ const Contact = () => {
         </h1>
             
         <p className="t m-2 p-4">
-          ¡Ayudanos sugiriendo las canciones que pensás que no pueden faltar en la fiesta!
+          ¡Ayudame sugiriendo las canciones que pensás que no pueden faltar en la fiesta!
         </p>
         
-        <button className="rounded-full py-2 px-4 bg-[#efb810] text-white font-semibold shadow-md hover:bg-[#ca8a04] focus:ring-2 focus:ring-[#422006] focus:ring-opacity-75">
+        <button className="rounded-full py-2 px-4 bg-[#10c2ef] text-white font-semibold shadow-md hover:bg-[#1c1d5f] focus:ring-2 focus:ring-[#422006] focus:ring-opacity-75">
           SUGERIR CANCIÓN
         </button>
         
@@ -56,13 +55,10 @@ const Contact = () => {
 
       <div className="container w-full h-[300px] flex flex-col items-center justify-center text-center bg-[#020617]">
         <div className="cuenta__regresiva">
-          <h3 className="text-white m-4  p-4">GRACIAS POR ACOMPAÑARNOS EN ESTE MOMENTO TAN IMPORTANTE</h3>
+          <h3 className="text-white m-4  p-4">GRACIAS POR ACOMPAÑARME EN ESTE MOMENTO TAN ESPECIAL, TE VEO EN LA FIESTA</h3>
         </div>
       </div>
 
-      {/*footer*/}
-
-      <Footer/>
 
     </section>
   );

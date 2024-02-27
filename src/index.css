@@ -97,6 +97,10 @@ body:has(.card[data-color="green"]:hover) {
   text-shadow: 3px 2px 12px #068DC1;
 }
 
+a:hover {
+  color: #0a1647;; /* Color del enlace cuando el mouse está sobre él */
+}
+
 .block-container {
   position: relative;
   transition: 250ms;
@@ -211,22 +215,19 @@ body:has(.card[data-color="green"]:hover) {
   font-style: bold;
   z-index: 0;
   color: #2FABD8;
-  top: 30%;
   text-shadow: 3px 2px 12px #0474a0;
 }
-@media only screen 
-   and (min-width : 430px) 
-   and (min-height : 640px) {
-   .name3{
-    top:35%;
-   }
-}
+
 .name4{
+  padding:2rem;
   font-family: "Josefin Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: 400;
-  font-size: 40px;
+  font-size: 30px;
   font-style: normal;
+}
+.ubicacion{
+  top:15%;
 }
   
 .link{
