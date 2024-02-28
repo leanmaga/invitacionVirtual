@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import  { useState, useEffect } from 'react';
 
 function Countdown() {
   const [countdown, setCountdown] = useState('');
@@ -18,7 +18,12 @@ function Countdown() {
         const minutes = Math.floor((timeDifference % (1000 * 60 * 60)) / (1000 * 60));
         const seconds = Math.floor((timeDifference % (1000 * 60)) / 1000);
 
-        setCountdown(`${days}d ${hours}h ${minutes}m ${seconds}s`);
+        // Rellenar con ceros a la izquierda si es necesario
+        const formattedHours = String(hours).padStart(2, '0');
+        const formattedMinutes = String(minutes).padStart(2, '0');
+        const formattedSeconds = String(seconds).padStart(2, '0');
+
+        setCountdown(`${days}d ${formattedHours}h ${formattedMinutes}m ${formattedSeconds}s`);
       }
     }
 
@@ -30,9 +35,23 @@ function Countdown() {
   }, []);
 
   return (
-    <div>
-     
-      <div id="countdown">{countdown}</div>
+    <div className="countdown-container">
+      <div className="countdown-section">
+        <span>{countdown.split(' ')[0]}</span>
+       
+      </div>
+      <div className="countdown-section">
+        <span>{countdown.split(' ')[1]}</span>
+        
+      </div>
+      <div className="countdown-section">
+        <span>{countdown.split(' ')[2]}</span>
+       
+      </div>
+      <div className="countdown-section">
+        <span>{countdown.split(' ')[3]}</span>
+        
+      </div>
     </div>
   );
 }

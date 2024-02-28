@@ -25,7 +25,7 @@ const Contact = () => {
         
         <p className="text-black pb-4 m-2">¡Preparate para mi gran día! Ya podés etiquetarme en Instagram con el hashtag en tus fotos o videos.</p>
       
-        <button className="uppercase m-4 rounded-full py-2 px-4 bg-[#10c2ef] text-white font-semibold shadow-md hover:bg-[#28305e] focus:ring-2 focus:ring-[#422006] focus:ring-opacity-75">
+        <button className="boton uppercase m-4 rounded-full py-2 px-4 bg-[#10c2ef] text-white font-semibold shadow-md hover:bg-[#60adc5] focus:ring-2 focus:ring-[#422006] focus:ring-opacity-75">
           <a target="_blank" rel="noreferrer" href="https://www.instagram.com/">
             VER FOTOS EN INSTAGRAM
           </a>
@@ -47,7 +47,7 @@ const Contact = () => {
           ¡Ayudame sugiriendo las canciones que pensás que no pueden faltar en la fiesta!
         </p>
         
-        <button className="rounded-full py-2 px-4 bg-[#10c2ef] text-white font-semibold shadow-md hover:bg-[#1c1d5f] focus:ring-2 focus:ring-[#422006] focus:ring-opacity-75">
+        <button className="boton rounded-full py-2 px-4 bg-[#10c2ef] text-white font-semibold shadow-md hover:bg-[#60adc5] focus:ring-2 focus:ring-[#422006] focus:ring-opacity-75">
           <a target="_blank" rel="noreferrer" href="https://music.youtube.com/playlist?list=PL8jjBT_UyxuNtedTU5CCiu7G1V8miogri&jct=CmUCCmAbGem-eKZt-Hvlpw1AXSEVRg">
             SUGERIR CANCIÓN
           </a>
