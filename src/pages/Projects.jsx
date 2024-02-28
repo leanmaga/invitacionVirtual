@@ -14,7 +14,7 @@ const Projects = () => {
       <div className="container w-full h-screen flex flex-col items-center justify-center text-center">
         
         
-        <img src={ubicacion} alt="musica" className='w-[50%] h-auto'/>
+        <img src={ubicacion} alt="musica" className='w-[50%] h-auto lg:w-[400px] lg:h-[400px]'/>
             
         <p className=" m-2 p-4">
           El evento se realizará el Sabado 6 de Abril a las 21.00 horas en Lasalle 3071, Salón Lahuen Eventos. Tocá el botón de abajo para recibir las indicaciones para llegar. ¡Te esperamos!
@@ -49,7 +49,7 @@ const Projects = () => {
 
       <div className="container w-full h-screen flex flex-col items-center justify-center text-center">
 
-      <img src={calendario} alt="musica" className='w-[50%] h-auto'/>
+      <img src={calendario} alt="musica" className='w-[50%] h-auto lg:w-[400px] lg:h-[400px]'/>
 
 
          

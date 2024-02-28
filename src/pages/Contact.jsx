@@ -15,7 +15,7 @@ const Contact = () => {
 
       <div className="w-full h-screen flex flex-col items-center justify-center text-center bg-hero-pattern bg-center bg-cover bg-no-repeat">
 
-        <img src={igdorado} alt="anillos" className='w-[50%] h-auto'/>
+        <img src={igdorado} alt="anillos" className='w-[50%] h-auto lg:w-[400px] lg:h-[400px]'/>
 
 
         
@@ -37,7 +37,7 @@ const Contact = () => {
 
       <div className="container w-full h-screen flex flex-col items-center justify-center text-center">
         
-        <img src={musica} alt="musica" className='w-[50%] h-auto'/>
+        <img src={musica} alt="musica" className='w-[50%] h-auto lg:w-[400px] lg:h-[400px]'/>
 
         <h1 className="text-3xl m-2 p-4 ">
           ¿QUÉ CANCIONES NO PUEDEN FALTAR?
@@ -57,7 +57,7 @@ const Contact = () => {
 
       {/*mensaje*/}
 
-      <div className="container w-full h-[300px] flex flex-col items-center justify-center text-center bg-[#020617]">
+      <div className="w-full h-[200px] flex flex-col items-center justify-center text-center bg-[#0f172a]">
         <div className="cuenta__regresiva">
           <h3 className="text-white m-4  p-4">GRACIAS POR ACOMPAÑARME EN ESTE MOMENTO TAN ESPECIAL, TE VEO EN LA FIESTA</h3>
         </div>
