@@ -94,7 +94,7 @@ body:has(.card[data-color="green"]:hover) {
 
 .logo {
   color: #0a1647;
-  text-shadow: 3px 2px 12px #068DC1;
+  text-shadow: 3px 2px 12px #45bceb;
 }
 
 a:hover {
@@ -226,10 +226,19 @@ a:hover {
   font-size: 30px;
   font-style: normal;
 }
+.name5{
+  font-size: 25px;
+  font-family: "Pinyon Script", cursive;
+  font-weight: 800;
+  font-style: bold;
+}
 .ubicacion{
   top:15%;
 }
   
 .link{
-  text-shadow: 3px 2px 12px #0474a0;
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  text-shadow: 3px 2px 12px #45bceb;
 }

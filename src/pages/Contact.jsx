@@ -20,13 +20,15 @@ const Contact = () => {
 
         
         <h1 className="text-5xl font-bold m-2 p-4 ">
-          #More15
+          #15more2024
         </h1>
         
         <p className="text-black pb-4 m-2">¡Preparate para mi gran día! Ya podés etiquetarme en Instagram con el hashtag en tus fotos o videos.</p>
       
         <button className="uppercase m-4 rounded-full py-2 px-4 bg-[#10c2ef] text-white font-semibold shadow-md hover:bg-[#28305e] focus:ring-2 focus:ring-[#422006] focus:ring-opacity-75">
-          ver fotos instagram
+          <a target="_blank" rel="noreferrer" href="https://www.instagram.com/">
+            VER FOTOS EN INSTAGRAM
+          </a>
         </button>
       
       </div>
@@ -46,7 +48,9 @@ const Contact = () => {
         </p>
         
         <button className="rounded-full py-2 px-4 bg-[#10c2ef] text-white font-semibold shadow-md hover:bg-[#1c1d5f] focus:ring-2 focus:ring-[#422006] focus:ring-opacity-75">
-          SUGERIR CANCIÓN
+          <a target="_blank" rel="noreferrer" href="https://music.youtube.com/playlist?list=PL8jjBT_UyxuNtedTU5CCiu7G1V8miogri&jct=CmUCCmAbGem-eKZt-Hvlpw1AXSEVRg">
+            SUGERIR CANCIÓN
+          </a>
         </button>
         
       </div>

@@ -29,8 +29,6 @@ const Home = () => {
         
         <h1 className="font-bold name4">06/04/2024</h1>
 
-        
-
       </motion.div> 
       
       {/*contador*/}
