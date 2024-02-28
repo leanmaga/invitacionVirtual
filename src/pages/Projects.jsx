@@ -66,7 +66,7 @@ const Projects = () => {
 
           <button className="uppercase m-4 rounded-full py-2 px-4 bg-[#10c2ef] text-white font-semibold shadow-md hover:bg-[#262886] focus:ring-2 focus:ring-[#422006] focus:ring-opacity-75">
             
-            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=15+de+More&dates=20240406T210000Z/20240406T220000Z&details=Sal%C3%B3n+Lahuen+Eventos&location=Lasalle+3071.&sf=true&output=xml" target="_blank" rel="noreferrer">AGENDAR EVENTO</a>
+            <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=15+de+More&dates=20240406T210000Z/20240407T050000Z&details=Sal%C3%B3n+Lahuen+Eventos&location=Lasalle+3071.&sf=true&output=xml"target="_blank" rel="noreferrer">AGENDAR EVENTO</a>
 
           </button>
         
