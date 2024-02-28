@@ -23,7 +23,7 @@ const Home = () => {
 
         <h1 className="font-bold  name3 uppercase absolute">15</h1>
         
-        <motion.h1 variants={textVariant(1.1)} className='text-5xl  name leading-none'>
+        <motion.h1 variants={textVariant(1.1)} className='text-5xl  name leading-none' translate="no">
           More
         </motion.h1>
         

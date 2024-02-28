@@ -19,7 +19,7 @@ const Contact = () => {
 
 
         
-        <h1 className="text-5xl font-bold m-2 p-4 ">
+        <h1 className="text-5xl font-bold m-2 p-4 " translate="no">
           #15more2024
         </h1>
         
