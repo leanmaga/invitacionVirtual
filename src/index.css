@@ -98,7 +98,8 @@ body:has(.card[data-color="green"]:hover) {
 }
 
 a:hover {
-  color: #0a1647;; /* Color del enlace cuando el mouse está sobre él */
+  
+  color: #ffffff; /* Color del enlace cuando el mouse está sobre él */
 }
 
 .block-container {
