@@ -11,8 +11,8 @@ const Projects = () => {
       
       {/*Ubicación */}
 
-      <div className="container w-full h-screen flex flex-col items-center justify-center text-center bg-hero-pattern bg-center bg-cover bg-no-repeat hero">
-        
+      <div className="w-full h-screen flex flex-col items-center justify-center text-center bg-hero-pattern bg-center bg-cover bg-no-repeat">
+
         
         <img src={ubicacion} alt="musica" className='w-[50%] h-auto lg:w-[400px] lg:h-[400px]'/>
             
