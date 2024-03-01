@@ -21,7 +21,8 @@ export default {
     extend: {
 
       backgroundImage: {
-        'hero-pattern': "url('./assets/images/textures/background.png')",       
+        'hero-pattern': "url('./assets/images/textures/bg.png')",    
+        'hero-children': "url('./assets/images/textures/background.png')",       
       },
 
       colors: {
