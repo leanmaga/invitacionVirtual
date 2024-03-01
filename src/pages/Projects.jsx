@@ -1,4 +1,7 @@
 
+import { motion } from 'framer-motion';
+import { staggerContainer,textVariant } from '../utils/motion';
+
 import regalo from '../../src/assets/images/accesorios/regalo.png'
 import ubicacion from '../../src/assets/images/accesorios/ubicacion.png'
 
@@ -10,12 +13,18 @@ const Projects = () => {
     <section className="w-full h-screen relative">
       
       {/*Ubicación */}
-
-      <div className="w-full h-screen flex flex-col items-center justify-center text-center bg-hero-children bg-center bg-cover bg-no-repeat">
-
+      <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      >
         
-        <img src={ubicacion} alt="musica" className='w-[50%] h-auto lg:w-[400px] lg:h-[400px]'/>
-            
+        <div className="w-full h-screen flex flex-col items-center justify-center text-center bg-hero-children bg-center bg-cover bg-no-repeat">
+
+        <motion.img variants={textVariant(1.5)}  src={ubicacion} className="w-[50%] h-auto lg:w-[400px] lg:h-[400px]">
+        </motion.img>
+        
         <p className=" m-2 p-4">
           El evento se realizará el Sabado 6 de Abril a las 21.00 horas en Lasalle 3071, Salón Lahuen Eventos. Tocá el botón de abajo para recibir las indicaciones para llegar. ¡Te esperamos!
         </p>
@@ -26,14 +35,24 @@ const Projects = () => {
             </a>
         </button>
         
-      </div>
+        </div>
+
+      </motion.div>
+      
 
       {/*Regalo*/}
-
-      <div className="w-full h-[300px] flex flex-col items-center justify-center text-center bg-[#0f172a]">
+      <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      >
+        <div className="w-full h-[300px] flex flex-col items-center justify-center text-center bg-[#0f172a]">
         
-          <img src={regalo} alt="anillos" className='w-[100px] h-auto pt-2 m-2'/>
-
+          
+          <motion.img variants={textVariant(1.5)} alt="regalo" src={regalo} className="w-[100px] h-auto pt-2 m-2">
+          </motion.img>
+        
           <p className="text-white pb-4 m-2">Si deaseás realizarme un regalo...</p>
 
           <button className="boton rounded-full py-2 px-4 bg-[#10c2ef] text-white font-semibold shadow-md hover:bg-[#60adc5] ">
@@ -43,13 +62,22 @@ const Projects = () => {
          
           </button>
         
-      </div>
+        </div>
+      </motion.div>
+      
 
       {/*Confirmación de asistencia*/}
+      <motion.div
+      variants={staggerContainer}
+      initial="hidden"
+      whileInView="show"
+      viewport={{ once: false, amount: 0.25 }}
+      >
+        <div className="container w-full h-screen flex flex-col items-center justify-center text-center">
 
-      <div className="container w-full h-screen flex flex-col items-center justify-center text-center">
-
-      <img src={calendario} alt="musica" className='w-[50%] h-auto lg:w-[400px] lg:h-[400px]'/>
+          <motion.img variants={textVariant(1.5)} alt="calendario" src={calendario} className='w-[50%] h-auto lg:w-[400px] lg:h-[400px]'>
+          </motion.img>
+          
 
 
          
@@ -70,7 +98,9 @@ const Projects = () => {
 
           </button>
         
-      </div>
+        </div>
+      </motion.div>
+      
 
 
     </section>

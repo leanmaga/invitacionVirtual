@@ -1,3 +1,5 @@
+import { motion } from 'framer-motion';
+import { textVariant } from '../utils/motion';
 
 import igdorado from '../../src/assets/images/accesorios/igdorado.png'
 import musica from '../../src/assets/images/accesorios/musica.png'
