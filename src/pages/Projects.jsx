@@ -55,12 +55,16 @@ const Projects = () => {
         
           <p className="text-white pb-4 m-2">Si deaseás realizarme un regalo...</p>
 
-          <button className="boton rounded-full py-2 px-4 bg-[#10c2ef] text-white font-semibold shadow-md hover:bg-[#60adc5] ">
-            <a target="_blank" rel="noreferrer" href="#">
-              VER DATOS BANCARIOS
-            </a>
-         
-          </button>
+         <button className="boton rounded-full py-2 px-4 bg-[#10c2ef] text-white font-semibold shadow-md hover:bg-[#60adc5]">
+          <a
+            target="_blank"
+            rel="noreferrer"
+            href="https://www.mercadopago.com.ar/enviar-dinero/?user_id=morena.nenz"
+          >
+            VER DATOS BANCARIOS
+          </a>
+        </button>
+
         
         </div>
       </motion.div>
