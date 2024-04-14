@@ -56,7 +56,6 @@ body {
 
 .link{
   font-family: 'Josefin Sans', sans-serif;
-  
   font-weight: 400;
   text-shadow: 3px 2px 12px #45bceb;
 }
@@ -86,9 +85,7 @@ a:hover {
 }
 
 .countdown-section {
-  display: inline-block;
-  margin-right: 0.2rem;
-  width: 3rem;;
+  display: inline-block; 
 }
 
 .countdown-section span {

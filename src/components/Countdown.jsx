@@ -11,7 +11,7 @@ function Countdown() {
       const timeDifference = targetDate - currentDate;
 
       if (timeDifference <= 0) {
-        setCountdown('¡El evento ha comenzado!');
+        setCountdown('¡El evento finalizó!');
       } else {
         const days = Math.floor(timeDifference / (1000 * 60 * 60 * 24));
         const hours = Math.floor((timeDifference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
@@ -35,20 +35,20 @@ function Countdown() {
   }, []);
 
   return (
-    <div className="countdown-container">
-      <div className="countdown-section">
+    <div className="countdown-container w-full">
+      <div className="countdown-section ">
         <span>{countdown.split(' ')[0]}</span>
        
       </div>
-      <div className="countdown-section">
+      <div className="countdown-section ">
         <span>{countdown.split(' ')[1]}</span>
         
       </div>
-      <div className="countdown-section">
+      <div className="countdown-section ">
         <span>{countdown.split(' ')[2]}</span>
        
       </div>
-      <div className="countdown-section">
+      <div className="countdown-section ">
         <span>{countdown.split(' ')[3]}</span>
         
       </div>

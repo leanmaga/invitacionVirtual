@@ -9,7 +9,6 @@ const Home = () => {
   return (
     <section className="w-full h-screen flex flex-col items-center justify-center content-center">
       
-      <div className={`${styles.innerWidth} w-full h-screen bg-hero-pattern bg-center bg-cover bg-no-repeat hero absolute`} ></div>
       
       <motion.div
       variants={staggerContainer}
@@ -19,28 +18,33 @@ const Home = () => {
       className={`${styles.innerWidth} w-full h-screen flex flex-col items-center 
       justify-center text-center`}
       > 
-        <h1 className="font-bold  libre-baskerville-regular-italic name4 flex ">
+        <div className={`${styles.innerWidth} w-full h-screen bg-hero-pattern bg-center bg-cover bg-no-repeat hero absolute`} ></div>
+      
+        <div className='w-full h-screen flex flex-col items-center justify-center text-center'> 
+        
+          <h1 className="font-bold  libre-baskerville-regular-italic name4 flex ">
           Mis Quince Años
-        </h1>
+          </h1>
 
-        <h1 className="font-bold name3 uppercase absolute">15</h1>
+          <h1 className="font-bold name3 uppercase absolute">15</h1>
         
-        <motion.img variants={textVariant(1.5)}  translate="no" src={corona} className="corona absolute">
-        </motion.img>
+          <motion.img variants={textVariant(1.5)}  translate="no" src={corona} className="corona absolute">
+          </motion.img>
         
         
         
-        <motion.h1 variants={textVariant(1.1)} className='text-5xl name leading-none ' translate="no">
-          More
-        </motion.h1>
+          <motion.h1 variants={textVariant(1.1)} className='text-5xl name leading-none ' translate="no">
+           More
+          </motion.h1>
         
-        <h1 className="font-bold libre-baskerville-regular-italic name4 p-4">06 Abril 21:00</h1>
-          
+          <h1 className="font-bold libre-baskerville-regular-italic name4 p-4">06 Abril 21:00</h1>
+        </div>
+       
         {/*contador*/}
 
-        <div className="cuenta__regresiva p-4">
+        <div className="cuenta__regresiva w-full">
           <h3 className="libre-baskerville-regular-italic link">Faltan:</h3>
-          <h1 className="link"><Countdown/></h1>
+          <h1 className="link w-full p-4"><Countdown/></h1>
         </div>
 
       </motion.div> 
