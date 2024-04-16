@@ -1,6 +1,5 @@
 import { NavLink } from "react-router-dom";
 
-
 const Navbar = () => {
   return (
     <header className='header flex justify-around'>
@@ -17,11 +16,17 @@ const Navbar = () => {
 
         <nav className='flex text-lg gap-7 font-medium'>
         
-          <NavLink to='/projects' className={({ isActive }) => isActive ? "text-blue-400" : " text-black link"}>
+          <NavLink to='/ubicacion' className={({ isActive }) => isActive ? "text-blue-400" : " text-black link"}>
             Ubicacíon
           </NavLink>
-          <NavLink to='/contact' className={({ isActive }) => isActive ? "text-blue-400" : " text-black link"}>
+          <NavLink to='/contacto' className={({ isActive }) => isActive ? "text-blue-400" : " text-black link"}>
             Redes
+          </NavLink>
+          <NavLink to='/fotos' className={({ isActive }) => isActive ? "text-blue-400" : " text-black link"}>
+            Fotos
+          </NavLink>
+          <NavLink to='/videos' className={({ isActive }) => isActive ? "text-blue-400" : " text-black link"}>
+            Videos
           </NavLink>
 
         </nav>

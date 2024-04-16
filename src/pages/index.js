@@ -1,9 +1,13 @@
 import Home from "./Home";
-import Projects from "./Projects";
-import Contact from "./Contact";
+import Ubicacion from "./Ubicacion";
+import Contacto from "./Contacto";
+import Videos from './Videos'
+import Fotos from './Fotos'
 
 export {
     Home,
-    Projects,
-    Contact,
+    Ubicacion,
+    Contacto,
+    Fotos,
+    Videos,
 }
