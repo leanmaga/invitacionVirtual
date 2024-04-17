@@ -2,7 +2,7 @@
 import igdorado from '../../src/assets/images/accesorios/igdorado.png'
 import musica from '../../src/assets/images/accesorios/musica.png'
 
-const Contacto = () => {
+const Redes = () => {
   return (
     <section className="w-full h-screen relative">
      
@@ -65,4 +65,4 @@ const Contacto = () => {
   );
 };
 
-export default Contacto;
+export default Redes;

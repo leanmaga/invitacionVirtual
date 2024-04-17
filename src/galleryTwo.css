@@ -159,3 +159,21 @@
   max-height: 90vh;
   object-fit: contain;
 }
+
+.expanded-video-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: 9999; /* Ajusta el z-index según sea necesario */
+  background-color: rgba(0, 0, 0, 0.8); /* Fondo semitransparente */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.expanded-video {
+  max-width: 90vw;
+  max-height: 90vh;
+}

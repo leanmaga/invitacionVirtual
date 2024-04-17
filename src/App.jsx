@@ -2,7 +2,7 @@ import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 
 
 
-import {  Contacto, Home, Ubicacion, Fotos, Videos } from "./pages";
+import {  Home, Ubicacion, Fotos, Videos, Redes } from "./pages";
 import Navbar from "./components/Navbar";
 
 const App = () => {
@@ -17,8 +17,8 @@ const App = () => {
             element={
               <>
                 <Routes>
-                  <Route path='/ubicacion' element={<Ubicacion />} />
-                  <Route path='/contacto' element={<Contacto />} />
+                  <Route path='/ubicación' element={<Ubicacion />} />
+                  <Route path='/redes' element={<Redes />} />
                   <Route path='/fotos' element={<Fotos />} />
                   <Route path='/videos' element={<Videos />} />
                 </Routes>
