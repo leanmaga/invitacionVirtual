@@ -1,4 +1,7 @@
 import { useEffect, useState } from 'react';
+import { motion } from 'framer-motion';
+
+import { staggerContainer, textVariant } from '../utils/motion';
 
 import video1 from '/assets/videos/1.mp4';
 import video2 from '/assets/videos/2.mp4';
@@ -49,7 +52,19 @@ const GalleryThree = () => {
             <video src={video7} onClick={() => handleVideoClick(video7)} controls/>
             <video src={video8} onClick={() => handleVideoClick(video8)} controls/>
             <video src={video9} onClick={() => handleVideoClick(video9)} controls/>
-            <p>Mis 15 Años</p>
+            <motion.div
+              variants={staggerContainer}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: false, amount: 0.25 }}
+              className={`w-full h-screen  items-center 
+              justify-center text-start`}
+            >
+              <motion.h1 variants={textVariant(1.1)}  className='text-start text-5xl left-[-50%] m-0 name more leading-none ' translate="no">
+                More
+              </motion.h1>
+            </motion.div>
+            
           </div>
           <div id="ground"></div>
         </div>

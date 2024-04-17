@@ -8,6 +8,11 @@ import imagen6 from '/assets/images/6.jpg';
 import imagen7 from '/assets/images/7.jpg';
 import imagen8 from '/assets/images/8.jpg';
 
+import { motion } from 'framer-motion';
+
+import { staggerContainer, textVariant } from '../utils/motion';
+
+
 const GalleryTwo = () => {
   const bgMusicURL = '/rihana.mp3';
   const [expandedImage, setExpandedImage] = useState(null);
@@ -44,7 +49,19 @@ const GalleryTwo = () => {
             <img src={imagen6} alt="imagen6" onClick={() => handleImageClick(imagen6)}/>
             <img src={imagen7} alt="imagen7" onClick={() => handleImageClick(imagen7)}/>
             <img src={imagen8} alt="imagen8" onClick={() => handleImageClick(imagen8)}/>
-            <p>Mis 15 Años</p>
+            
+            <motion.div
+              variants={staggerContainer}
+              initial="hidden"
+              whileInView="show"
+              viewport={{ once: false, amount: 0.25 }}
+              className={`w-full h-screen  items-center 
+              justify-center text-start`}
+            >
+              <motion.h1 variants={textVariant(1.1)}  className='text-start text-5xl left-[-50%] m-0 name more leading-none ' translate="no">
+                More
+              </motion.h1>
+            </motion.div>
           </div>
           <div id="ground"></div>
         </div>
